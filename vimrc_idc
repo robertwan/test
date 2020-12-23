@@ -13,11 +13,9 @@ set nu
 
 call plug#begin()
 
-Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-sensible'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
-Plug 'w0rp/ale'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-repeat'
 Plug 'jiangmiao/auto-pairs'
@@ -28,8 +26,6 @@ Plug 'alvan/vim-closetag', { 'for' : 'html'  }
 Plug 'vim-scripts/a.vim' , { 'for' : ['c','cpp']  }
 Plug 'leafgarland/typescript-vim' , { 'for' : 'typescript'  }
 Plug 'elzr/vim-json' , { 'for' : 'json'  }
-Plug 'fatih/vim-go', { 'for' : 'go'  }
-Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh'   }
 Plug 'francoiscabrol/ranger.vim'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'ntpeters/vim-better-whitespace'
@@ -39,11 +35,11 @@ Plug 'inkarkat/vim-ingo-library'
 Plug 'inkarkat/vim-mark'
 Plug 'vim-scripts/Marks-Browser'
 Plug 'kshenoy/vim-signature'
-Plug 'KeitaNakamura/neodark.vim'
+Plug 'jonathanfilip/vim-lucius'
 
 call plug#end()
 
-colorscheme neodark
+colorscheme lucius
 
 let g:better_whitespace_enabled=1
 let g:strip_whitespace_on_save=1
